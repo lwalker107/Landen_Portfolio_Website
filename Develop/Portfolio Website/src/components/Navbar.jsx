@@ -2,9 +2,9 @@ import React from 'react';
 import { NavbarBrand, NavbarContent, NavbarItem, Link, Button} from "@nextui-org/react";
 
 
-const Navbar = () => {
+function Navbar () {
   return (
-    <div>
+    <Navbar>
       <NavbarBrand>
         <p className="font-bold text-inherit">ACME</p>
       </NavbarBrand>
@@ -35,7 +35,7 @@ const Navbar = () => {
           </Button>
         </NavbarItem>
       </NavbarContent>
-    </div>
+    </Navbar>
   )
 }
 
